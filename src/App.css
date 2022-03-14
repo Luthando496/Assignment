@@ -1,38 +1,281 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.top{
+  display: flex;
+  background-color: white;
+  height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+  border-bottom: solid 1px gainsboro;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  height: 3.2rem;
+  margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.user-nav__box-image{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: solid 2px;
+}
+
+
+
+.user-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  margin-right: 10px;
+
+}
+
+.user-nav__nav-icon{
+  width: 2.25rem;
+  margin-right:80px;
+  font-size: 30px;
+  
+}
+
+.user-nav__box-image{
+    height: 4rem;
+    display: flex;
+    color: rgb(248,249,250);
+    width: 7rem;
+    align-items: center;
+    border-left: solid 2px;
+}
+.user-nav__photo{
+  height: 3.75rem;
+  padding-left: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
+.user-nav__name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.col-lg-2{
+  height: 82rem;
+  border-right:solid 1px gainsboro;
+  right: 90%;
+  
+
+
+}
+
+
+
+#sidebar{
+  background-color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* border-right: solid 1px gray; */
+}
+.sidebar-nav {
+  margin-right: auto;
+  width: 100%;
+  padding-left: 0;
+}
+.sidebar-nav .sidebar-item{
+  list-style: none;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar-item:hover{
+  background-color: #1f8ceb;
+  border-radius: 5%;
+}
+.Billing{
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxes{
+  padding-left: 20px;
+}
+
+.box{
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 2px black;
+}
+.box-1{
+}
+
+.heading{
+  padding: 7px;
+  color: #1f8ceb;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.heading span{
+  position: absolute;
+  top: 7px;
+  right:4px;
+  background-color:rgb(241, 243, 237);
+  color:#19d5b2;
+  border-radius: 8px;
+  width: 65px;
+  padding-left: 8px;
+}
+
+.acc{
+  padding: 0 7px;
+  font-size: 13px;
+
+}
+
+.col-lg-10{
+  padding-left: 0;
+  height:80rem;
+  /* background-color: beige; */
+}
+
+
+.Billing-paragraph{
+  padding-left: 10px;
+}
+
+.payment-details{
+  width: 100%;
+  height: 20rem;
+}
+
+.Payment-text{
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+.view-text{
+  padding: 0 20px;
+  font-size: 13px;
+}
+
+.invoice{
+  padding: 15px 30px;
+  font-size: 1.25rem;
+
+}
+
+
+.inner-card{
+  width: 18rem;
+  height: 100%;
+  margin-left: 31px;
+}
+
+.inner-card .acc{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.inner-card h3{
+  padding: 0 20px;
+}
+
+.pay{
+  display: flex;
+}
+.pay p{
+  padding: 0 20px;
+}
+
+#box{
+  margin: 5px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 27rem;
+  box-shadow: 2px 2px 2px black;
+  border: solid 1px;
+}
+
+.btn-primary{
+  margin-left: 20px;
+}
+
+.inner-card-2{
+  width: 18rem;
+  height: 100%;
+  margin-left: 60px;
+}
+
+.card{
+  height:26.8rem
+}
+
+.pay span{
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.inner-card-2 h5{
+position: relative;
+margin-bottom:29px;
+}
+
+.inner-card-2 h5 span{
+  position: absolute;
+  top: 11px;
+  right: 25px;
+  background-color: rgb(241, 243, 237);
+  color: #19d5b2;
+  border-radius: 8px;
+  width: 80px;
+  padding-top: 3px;
+  font-size: 13px;
+  height: 25px;
+  padding-left: 14px;
+}
+
+.col-lg-7{
+  width:62.333333%
+}
+.item{
+  border-bottom: solid 1px;
+}
+.item span{
+  margin-left: 20px;
+}
+
+.col-lg-12{
+  width:96%;
+}
+
+
+#download{
+  padding-left: 10px;
+    width: 44px;
+}
+
+
+.billing-container{
+  height: 34rem;
+}
+
+.billing-container nav{
+  margin-left:13rem ;
+}
+
+.logo::first-letter{
+  color: blue;
 }
